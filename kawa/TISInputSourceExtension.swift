@@ -12,6 +12,8 @@ import Foundation
 extension TISInputSource {
     enum Category {
         static var keyboardInputSource: String {
+            // 여기서 가져오는 구나!!!
+            // documentation 에도 제대로 안 되어 있어서 그냥 내가 직접 문의함...
             return kTISCategoryKeyboardInputSource as String
         }
     }
